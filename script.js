@@ -13,7 +13,7 @@ const foodPet = function (animal, age) {
     }
 }
 
-foodPet("rabbit", "6")
+foodPet("rabbit", 6)
 
 
 
@@ -30,7 +30,7 @@ const animalFood = (name, age) => {
     }
 }
 
-const returnedFood = animalFood("dog", "2");
+const returnedFood = animalFood("dog", 2);
 console.log(returnedFood)
 
 
@@ -49,7 +49,7 @@ function pet (animal, age, color){
     }
 }
 
-pet ("goat", "7", 'blak')
+pet ("goat", 7, 'blak')
 
 
 
@@ -73,12 +73,6 @@ console.log(sum)
 
 
 
-//جدا کردن اعداد زوج و فرد رو تا اینجا تونستم 
-// اگر این کد رو میبینید یک بار دیگه خودتون   
-//              انجام بدید
-
-
-
 const even = [38,120, 18, 98];
 const odd =  [53, 333, 101, 13];
 
@@ -95,7 +89,6 @@ console.log(even);
 console.log(odd);
 
 
-// چالش جدا کردن اعداد زوج و فرد با استفاده از تابع
 
 
 function evenNumbers(even){
